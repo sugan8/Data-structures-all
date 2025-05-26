@@ -1,0 +1,93 @@
+//create an arraylist
+import java.util.ArrayList;
+public class Main{
+    public static void main(String args[]){
+        ArrayList <String>cars=new ArrayList<String>();
+        cars.add("bmw");
+        cars.add("benz");
+        cars.add("tata");
+        System.out.println(cars);     
+    }
+}
+//this code is to change,remove,size of the array list
+import java.util.ArrayList;
+public class Main{
+    public static void main(String args[]){
+        ArrayList <String>cars=new ArrayList<String>();
+        cars.add("bmw");
+        cars.add("benz");
+        cars.add("tata");
+        cars.set(0,"mahandra");
+        cars.remove(2);
+        System.out.println(cars);
+        System.out.println(cars.size());
+    }
+}
+-------------------------------------------------------
+//looping throung an array list
+import java.util.ArrayList;
+public class Main { 
+  public static void main(String[] args) { 
+    ArrayList<String> cars = new ArrayList<String>();
+    cars.add("Volvo");
+    cars.add("BMW");
+    cars.add("Ford");
+    cars.add("Mazda");
+    for (int i = 0; i < cars.size(); i++) {
+      System.out.println(cars.get(i));
+    }
+  } 
+}
+-------------------------------------------
+//for each loop
+import java.util.ArrayList;
+public class Main{
+    public static void main(String args[]){
+        ArrayList <String>cars=new ArrayList<String>();
+        cars.add("bmw");
+        cars.add("benz");
+        cars.add("tata");
+    for(String i : cars){
+    System.out.println(i);
+     }
+ }
+}
+----------------------------------------------
+//integer array
+import java.util.ArrayList;
+public class Main{
+    public static void main(String args[]){
+        ArrayList <Integer>cars=new ArrayList<Integer>();
+        cars.add(2);
+        cars.add(3);
+        cars.add(45);
+    for(Integer i : cars){
+    System.out.println(i);
+     }
+ }
+}
+-----------------------
+//sorting an arry
+import java.util.ArrayList;
+import java.util.Collections;
+public class Main{
+    public static void main(String args[]){
+        ArrayList <Integer>cars=new ArrayList<Integer>();
+        cars.add(2);
+        cars.add(3);
+        cars.add(45);
+        Collections.sort(cars);
+    for(Integer i : cars){
+    System.out.println(i);
+     }
+ }
+}
+
+
+
+
+
+
+
+
+
