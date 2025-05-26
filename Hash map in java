@@ -1,0 +1,10 @@
+import java.util.HashMap;
+public class Main{
+    public static void main (String args[]){
+    HashMap<String, Integer>citycapitals=new HashMap<String,Integer>();
+        citycapitals.put("tn",12);
+        citycapitals.put("kerala",34);
+    
+        System.out.println (citycapitals);
+    }
+}
