@@ -1,0 +1,12 @@
+import java.util.HashMap;
+public class Main{
+    public static void main(String args[]){
+        HashMap <String,integer>cars=new HashMap<String,integer>();
+        cars.add("swift",55);
+         cars.add("bmw",78);
+        //   cars.add("benz,44");
+        //   cars.add("audi,453");
+        //   cars.add("bmw,76");
+           System.out.println(cars);
+    }
+}
