@@ -1,0 +1,13 @@
+// write a code for array list
+import java.util.ArrayList;
+public class Main{
+    public static void main(String args[]){
+        ArrayList <String>cars=new  ArrayList <String>();
+        cars.add("swift");
+         cars.add("bmw");
+          cars.add("benz");
+           cars.add("audi");
+           cars.add("bmw");
+           System.out.println(cars);
+    }
+}
